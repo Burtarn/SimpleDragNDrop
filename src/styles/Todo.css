@@ -1,0 +1,124 @@
+/* Todo.css */
+.todo-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background: #218838;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.todo-item:hover {
+    background: #f1f1f1;
+}
+
+.checkBoxBtn {
+    margin-right: 10px;
+}
+
+.checked-text {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.editBtn {
+    background: #ffc107;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.editBtn:hover {
+    background: #e0a800;
+}
+
+.removeBtn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.removeBtn:hover {
+    background: #c82333;
+}
+
+.edit-input {
+    border: 2px solid #007bff;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.edit-input:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+span {
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+span:hover {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
